@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "modelfix",
+	"version": "${version}",
+	"name": "modelfix",
+	"description": "FIX ISSUE #MC-73186 BY RZMAO",
+	"authors": [
+		"RZMAO"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"modelfix.mixins.json"
+	],
+    "accessWidener" : "modelfix.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "*",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
